@@ -29,15 +29,14 @@
     	// display name on page
     	$("#name-area").html("You are: <span>" + name + "</span>");
     	// kick off chat
-        var chat =  new Chat();
+      var chat =  new Chat();
 
-        // causes Ajax failure in WAMP 
-        // chat.send("Logged in", name);
-    	$(function() {
-    	
-    		 chat.getState(); 
-    		 
-    		 // watch textarea for key presses
+      $(function() {
+      
+         chat.getState(); 
+         chat.send("Logged in", name);
+         
+         // watch textarea for key presses
              $("#sendie").keydown(function(event) {  
              
                  var key = event.which;  

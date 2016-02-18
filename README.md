@@ -1,4 +1,6 @@
-# AJAX Chat Application
+# AppChat
+
+## AJAX Chat Application
 Javascript/JQuery writes chat history to chat.txt file
 
 ## Contributors
@@ -7,7 +9,7 @@ droidcode1<br />
 piksrys
 
 ## Features
-*   New message alert when out of tab
+*   New message alert when not in tab
 *   History clear
 *   Nickname change
 *   Indirect file upload / download
