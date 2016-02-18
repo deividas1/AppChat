@@ -19,5 +19,5 @@ MIT
 
 ### Credit
 
-based on Chris Coyier blog<br />
+based on Chris Coyier's blog<br />
 https://css-tricks.com/jquery-php-chat/
