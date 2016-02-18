@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+ROBOTO FONTFACE
+- light
+- normal 
+- bold
+*/
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #0F0F0F;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    color: #FF9900;
+    font-size: 34px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+}
+h2 span {
+    font-weight: 300;
+}
+.wrap {
+    width: 100%;
+    height: 100vh;
+    padding-top: 30px;
+    border-top: 30px #1B1B1B solid;
+    border-bottom: 30px #1B1B1B solid;
+}
+
+
+.chat-wrap {
+    margin: 0 0 0 0;
+    width: 600px;
+    margin: auto;
+    position: relative;
+}
+
+#chat-area {
+    height: 300px;
+    overflow: auto;
+    /*border-radius: 10px;*/
+    border: none;
+    padding: 20px 10px 10px;
+    background: lightgray;
+}
+
+#chat-area span {
+    color: white;
+    background: #333;
+    padding: 4px 8px;
+    border-radius: 3px;
+    margin: 0 3px 0 0;
+}
+
+#chat-area p {
+    padding: 8px 0;
+    line-height: 150%;
+    font-size: 15px;
+    border-bottom: 1px solid #888B8C;
+}
+
+#name-area {
+    position: absolute;
+    top: 12px;
+    right: 0;
+    color: white;
+    font: bold 12px "Lucida Grande", Sans-Serif;
+    /*text-align: right;*/
+}
+
+#name-area span {
+    color: #fa9f00;
+}
+
+#send-message-area p {
+    float: left;
+    color: white;
+    padding-top: 18px;
+    font-size: 14px;
+}
+
+#sendie {
+    width: 490px;
+    padding: 10px;
+    font: 12px "Lucida Grande", Sans-Serif;
+    float: right;
+    background-color: #c2c2c2;
+    font-size: 14px;
+    max-height: 50px;
+}
+
+
+time {
+    color: gray;
+    font-weight: 300;
+    padding: 5px;
+    font-size: 14px;
+
+}
+button {
+    border-radius: 3px;
+    background: #FF9900;
+    padding: 8px 16px;
+    border: none;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 14px;
+    position: absolute;
+    text-transform: uppercase;
+    top: -15px;
+    right: 0px;
+    font-family: 'Roboto';
+    transition: ease-in 200ms;
+}
+
+button#upload1 {
+    right: 90px;
+}
+
+button:hover {
+    background: #000;
+    color: #FF9900;
+    border: 1px solid #242626;
+}
+::selection {
+    background: #FF9900;
+    color: #000;
+
+}
+::-moz-selection {
+    background: #FF9900;
+    color: #000;
+}
+
+#chat-area p span {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+}
