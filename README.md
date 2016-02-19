@@ -17,7 +17,7 @@ piksrys
 ### License
 MIT
 
-### Credit
+### Credit for
 
 based on Chris Coyier's blog<br />
 https://css-tricks.com/jquery-php-chat/
