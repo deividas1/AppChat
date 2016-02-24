@@ -1,6 +1,5 @@
-# AppChat
 
-## AJAX Chat Application
+# AJAX Chat Application
 Javascript/JQuery writes chat history to chat.txt file
 
 ## Contributors
